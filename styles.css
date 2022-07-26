@@ -1,0 +1,80 @@
+/* Importing Open Sans Condensed Google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');   
+
+
+div {
+    color: #016B90;
+    background-color: black;
+    float: left;
+    height: 370px;
+    width: 13%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*outline: solid 1px rgb(255, 255, 255);*/
+
+}
+
+body {
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    color: #000000;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 250px;
+    outline: solid 1px #ffffff;
+
+}
+
+#hour {
+      
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+#minute {
+    
+    font-size: 64px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#second {
+    
+    font-size: 64px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#AM-PM {
+    /*background-color: #000000;*/
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    color: #A9D73C;
+
+}
+
+#date {
+    /*background-color: #000000;*/
+    font-size: 32px;  
+    text-align: center;
+    color: #A9D73C;
+    position: absolute;
+    bottom: -150%;
+    
+
+}
